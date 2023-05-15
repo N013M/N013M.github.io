@@ -12,4 +12,5 @@ group :jekyll_plugins do
    gem 'jemoji', '~> 0.12.0'
    gem 'jekyll-redirect-from', '~> 0.16.0'
    gem 'jekyll-seo-tag', '~> 2.8'
+   gem "jekyll-polyglot"
 end

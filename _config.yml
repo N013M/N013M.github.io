@@ -81,6 +81,7 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-redirect-from
+  - jekyll-polyglot
 
 # Front Matter Defaults
 defaults:
@@ -108,3 +109,11 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
+languages: ["ar", "en"]
+default_lang: "ar"
+exclude_from_localization: ["assets/css", "assets/images"]
+parallel_localization: true
+
+sass:
+  sourcemap: never

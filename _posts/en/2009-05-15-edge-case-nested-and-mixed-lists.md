@@ -2,7 +2,6 @@
 title: "ben ten"
 lang: ar
 categories:
-  - en
   - ben ten
 tags:
   - ben ten

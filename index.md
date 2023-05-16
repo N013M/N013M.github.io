@@ -5,9 +5,14 @@ show_excerpts: true
 entries_layout: list
 ---
 {% for lang in site.languages %}
-    {% if lang == site.default_lang %}
-{{ lang }} (Default)
+    {% assign lang_name = site.data[lang].l10n.lang_name %}
+    {% if lang == site.active_lang %}
+{{ lang_name }}
     {% else %}
-{{ lang }}
+        {% if lang == site.default_lang %}
+<a href=" {{ page.url }}">{{ lang_name }}</a>
+        {% else %}
+<a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a>
+        {% endif %}
     {% endif %}
 {% endfor %}

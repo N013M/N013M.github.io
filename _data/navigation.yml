@@ -10,5 +10,7 @@
   url: /tags/
 # - title: Recipes
 #  url: /recipes/
+- title: hello
+  url: /my-new-page/
 - title: Search
   url: /search/

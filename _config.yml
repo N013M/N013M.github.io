@@ -113,7 +113,7 @@ footer_links:
 languages: ["ar", "en"]
 default_lang: "ar"
 exclude_from_localization: ["assets/css", "assets/images"]
-parallel_localization: true
+parallel_localization: false
 
 sass:
   sourcemap: never

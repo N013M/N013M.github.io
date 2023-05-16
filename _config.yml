@@ -16,7 +16,7 @@
 # theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
-locale: ar
+locale: en-US
 title: "Abu Majed Blog"
 description: "It really is the best."
 baseurl: # the subpath of your site, e.g. "/blog"

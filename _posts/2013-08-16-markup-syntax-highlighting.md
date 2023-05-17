@@ -24,7 +24,7 @@ Here's an example of a CSS code snippet written in GFM:
 
 ```css
 #container {
-  float: left;
+  float: right;
   margin: 0 -240px 0 0;
   width: 100%;
 }

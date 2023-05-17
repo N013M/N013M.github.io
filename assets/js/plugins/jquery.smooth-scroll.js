@@ -25,7 +25,7 @@
     excludeWithin: [],
     offset: 0,
 
-    // one of 'top' or 'left'
+    // one of 'top' or 'right'
     direction: 'top',
 
     // if set, bind click events through delegation
@@ -69,7 +69,7 @@
   var getScrollable = function(opts) {
     var scrollable = [];
     var scrolled = false;
-    var dir = opts.dir && opts.dir === 'left' ? 'scrollLeft' : 'scrollTop';
+    var dir = opts.dir && opts.dir === 'right' ? 'scrollright' : 'scrollTop';
 
     this.each(function() {
       var el = $(this);
@@ -87,7 +87,7 @@
       if (el[dir]() > 0) {
         scrollable.push(this);
       } else {
-        // if scroll(Top|Left) === 0, nudge the element 1px and see if it moves
+        // if scroll(Top|right) === 0, nudge the element 1px and see if it moves
         el[dir](1);
         scrolled = el[dir]() > 0;
 
@@ -287,7 +287,7 @@
       }
     }
 
-    scrollDir = opts.direction === 'left' ? 'scrollLeft' : scrollDir;
+    scrollDir = opts.direction === 'right' ? 'scrollright' : scrollDir;
 
     if (opts.scrollElement) {
       $scroller = opts.scrollElement;

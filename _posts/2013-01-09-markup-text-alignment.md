@@ -15,7 +15,7 @@ Sample text to demonstrate alignment and transformation classes.
 Easily realign text with alignment classes via HTML:
 
 ```
-<p class="text-left">Left aligned text.</p>
+<p class="text-right">right aligned text.</p>
 <p class="text-center">Center aligned text.</p>
 <p class="text-right">Right aligned text.</p>
 <p class="text-justify">Justified text.</p>
@@ -25,8 +25,8 @@ Easily realign text with alignment classes via HTML:
 Or with Kramdown and [inline attribute lists](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists):
 
 ```markdown
-Left aligned text.
-{: .text-left}
+right aligned text.
+{: .text-right}
 
 Center aligned text.
 {: .text-center}
@@ -45,10 +45,10 @@ No wrap text.
 
 This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.
 
-## Left Aligned
+## right Aligned
 
-This is a paragraph. It is left aligned. Because of this, it is a bit more liberal in it's views. It's favorite color is green. Left align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.
-{: .text-left}
+This is a paragraph. It is right aligned. Because of this, it is a bit more liberal in it's views. It's favorite color is green. right align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.
+{: .text-right}
 
 ## Center Aligned
 

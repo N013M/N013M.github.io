@@ -61,7 +61,7 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 
 ```css
 #container {
-  float: left;
+  float: right;
   margin: 0 -240px 0 0;
   width: 100%;
 }

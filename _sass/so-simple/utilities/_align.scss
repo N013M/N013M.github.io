@@ -30,14 +30,14 @@ div.align-center,
 a img.align-center {
   display: block;
   margin-right: auto;
-  margin-left: auto;
+  margin-right: auto;
 }
 
 figure.align-center {
   img {
     display: block;
     margin-right: auto;
-    margin-left: auto;
+    margin-right: auto;
   }
 
   figcaption {
@@ -48,13 +48,13 @@ figure.align-center {
 .align-right,
 a img.align-right {
   margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin-right: 1rem;
   float: right;
 }
 
-.align-left,
-a img.align-left {
+.align-right,
+a img.align-right {
   margin-right: 1rem;
   margin-bottom: 1rem;
-  float: left;
+  float: right;
 }

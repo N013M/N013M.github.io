@@ -21,7 +21,7 @@ The best way to demonstrate the ebb and flow of the various image positioning op
 Assign classes with HTML:
 
 ```html
-<img src="image.jpg" class="align-left" alt="">
+<img src="image.jpg" class="align-right" alt="">
 <img src="image.jpg" class="align-center" alt="">
 <img src="image.jpg" class="align-right" alt="">
 ```
@@ -29,7 +29,7 @@ Assign classes with HTML:
 Or use Kramdown and [inline attribute lists](https://kramdown.gettalong.org/syntax.html#inline-attribute-lists):
 
 ```markdown
-![left-aligned-image](image.jpg){: .align-left}
+![right-aligned-image](image.jpg){: .align-right}
 ![center-aligned-image](image.jpg){: .align-center}
 ![right-aligned-image](image.jpg){: .align-right}
 ```
@@ -38,7 +38,7 @@ Or use Kramdown and [inline attribute lists](https://kramdown.gettalong.org/synt
 
 The image should be **centered** with the `.align-center` class.
 
-![image-left]({{ '/images/image-alignment-150x150.jpg' | absolute_url }}){: .align-left} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
+![image-right]({{ '/images/image-alignment-150x150.jpg' | absolute_url }}){: .align-right} The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **right aligned** with the `.align-right` class.
 
 As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we'll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it's thing. Mission accomplished!
 
@@ -50,7 +50,7 @@ The image above, though `1200px` wide, should not overflow the content area. It 
 
 ![image-right]({{ '/images/image-alignment-300x200.jpg' | absolute_url }}){: .align-right}
 
-And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
+And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the right of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the right aligned image says, you look great. Don't let anyone else tell you differently.
 
 In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah --- Just like that. It never felt so good to be right.
 
@@ -63,12 +63,12 @@ And just when you thought we were done, we're going to do them all over again wi
 
 The figure above happens to be **centered**. The caption also has a link in it, just to see if it does anything funky.
 
-<figure style="width: 150px" class="align-left">
+<figure style="width: 150px" class="align-right">
   <img src="{{ '/images/image-alignment-150x150.jpg' | absolute_url }}" alt="">
   <figcaption>Itty-bitty caption.</figcaption>
 </figure> 
 
-The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **left aligned** with the `.align-left` class.
+The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is **right aligned** with the `.align-right` class.
 
 As you can see the should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we'll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it's thing. Mission accomplished!
 
@@ -86,7 +86,7 @@ The figure element above has an inline style of `width: 1200px` set which should
   <figcaption>Feels good to be on the right.</figcaption>
 </figure> 
 
-And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the left aligned image says, you look great. Don't let anyone else tell you differently.
+And now we're going to shift things to the **right** with the `.align-right` class. Again, there should be plenty of room above, below, and to the right of the image. Just look at him there --- Hey guy! Way to rock that right side. I don't care what the right aligned image says, you look great. Don't let anyone else tell you differently.
 
 In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah --- Just like that. It never felt so good to be right.
 

@@ -229,7 +229,7 @@
   li {
     display: block;
     float: right;
-    margin-left: -1px;
+    margin-right: -1px;
 
     a {
       display: block;
@@ -250,11 +250,11 @@
     }
 
     &:first-child {
-      margin-left: 0;
+      margin-right: 0;
 
       a {
-        border-top-left-radius: $border-radius;
-        border-bottom-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
       }
     }
 
@@ -300,7 +300,7 @@
     cursor: pointer;
 
     .toc-toggle-icon {
-      margin-left: 1rem;
+      margin-right: 1rem;
       -webkit-transition: -webkit-transform 350ms ease;
       transition: -webkit-transform 350ms ease;
       transition: transform 350ms ease;
@@ -320,7 +320,7 @@
     display: none;
     height: 0;
     margin-bottom: 0;
-    padding-left: 2rem;
+    padding-right: 2rem;
     overflow: hidden;
     font-size: 0.9rem;
     -webkit-transition: height 350ms ease;
@@ -346,7 +346,7 @@
     }
 
     ol {
-      padding-left: 0.5rem;
+      padding-right: 0.5rem;
       list-style-type: lower-roman;
     }
   }

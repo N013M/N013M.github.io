@@ -16,12 +16,12 @@
 # theme: jekyll-theme-so-simple
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
-locale: en-US
-title: "Abu Majed Blog"
-description: "It really is the best."
+locale: ar
+title: "موقع ابو ماجد"
+description: "السلام عليكم"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://N013M.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/logo.png" # path of site logo, e.g. "/images/logo.png"
+logo: "/assets/images/logo.png" # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
@@ -30,7 +30,7 @@ mathjax:
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags:  # "none", "ams" (default), "all"
 google_fonts:
-  - name: "Source Sans Pro"
+  - name: "IBM Plex Sans Arabic"
     weights: "400,400i,700,700i"
   - name: "Lora"
     weights: "400,400i,700,700i"

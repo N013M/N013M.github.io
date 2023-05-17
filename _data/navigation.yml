@@ -1,16 +1,14 @@
 # Site navigation links
 
-- title: الصفحة الرئيسية
-  url: /
-# - title: Posts
-#  url: /posts/
-- title: الاقسام
-  url: /categories/
-- title: التصانيف
-  url: /tags/
-# - title: Recipes
-#  url: /recipes/
-- title: hello
-  url: /my-new-page/
 - title: البحث
   url: /search/
+# - title: Posts
+#  url: /posts/
+# - title: Recipes
+#  url: /recipes/
+- title: التصانيف
+  url: /tags/
+- title: المواضيع
+  url: /categories/
+- title: الصفحة الرئيسية
+  url: /

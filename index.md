@@ -1,9 +1,6 @@
 ---
 layout: home
-limit: 10
+limit: 3
 show_excerpts: true
 entries_layout: list
-{% for lang in site.languages %}
-{{ lang }}
-{% endfor %}
 ---

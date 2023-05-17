@@ -110,11 +110,3 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
-
-languages: ["ar", "en"]
-default_lang: "ar"
-exclude_from_localization: ["assets/css", "assets/images"]
-parallel_localization: false
-
-sass:
-  sourcemap: never
